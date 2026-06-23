@@ -1,0 +1,18 @@
+[project]
+name = "turkish-ai-detector"
+version = "0.2.0"
+description = "Turkish AI text detector runtime"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=0.26.0",
+    "torch>=2.5.0",
+    "transformers>=4.47.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["turkish_ai_detector*"]
+
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"

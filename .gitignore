@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.zip
+
+# Virtual environments
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Large Datasets & JSON files (Private data)
+*.jsonl
+*.json
+!pyproject.toml
+
+# Model weights and local cache artifacts
+*.safetensors
+*.pt
+*.pth
+*.bin
+.cache/
+hf_cache/
+models/
+outputs/
+
+# Private reports and local review artifacts
+*_report.md
+docs/
+samples/
+
+# Local one-off experiment helpers tied to private datasets
+calibrate_*.py
+convert_*.py
+create_*subset*.py
+patch_model.py
+prepare_dataset.py
+print_*weights.py
+run_*experiment.py
+test_accuracy.py
+verify_*.py
+
